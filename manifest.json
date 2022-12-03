@@ -1,0 +1,25 @@
+{
+    "name": "Linkedin Post liker and Commenter", 
+    "manifest_version": 3,
+    "version": "1.0.0",
+    "description": "This Is Simple Linkedin url opener",
+    "permissions": ["tabs"],
+    "action": {   
+      "default_popup": "pop.html", 
+      "default_icon": {
+        "16" : "Images/16.png",
+        "32" : "Images/32.png",
+        "48" : "Images/48.png",
+        "128" : "Images/128.png"
+      }
+    },
+    "content_scripts": [
+      {
+        "matches":["https://*.linkedin.com/*"],
+        "js":["contentScripts.js"],
+        "all_frames": true
+      }
+    ]
+
+  } 
+    

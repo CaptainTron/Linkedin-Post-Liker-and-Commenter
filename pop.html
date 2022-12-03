@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Link to font awesome !!! -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+            /* Style of the style starts from here  I've put it here for better comprehension */
+            body{
+                width: 300px;
+                background-color: rgb(27, 28, 29);
+                border-radius: 3px;
+                font-family: sans-serif;
+                color: wheat;
+            }
+            button{
+                background-color: rgb(24, 24, 20);
+                border: none;
+                cursor: pointer;
+                padding: 6px;
+                border-radius: 4px;
+                margin: 6px;
+                color: yellow;
+                box-shadow: 0 0 5px wheat;
+            }
+            button:hover{
+                background-color: rgb(56, 53, 45);
+                color: wheat;
+                box-shadow: 0 0 5px yellow,0 0 10px yellow;
+            }
+            input{
+                width: 300px;
+                margin: 8px 0  8px 0;
+                height: 20px;
+                border: none;
+                border-radius: 5px;
+            }
+            input:focus[type="number"]{
+                outline: none;
+            }
+            h3{
+                margin: 0px;
+            }
+            .hidden{
+                display: none;
+            }
+        </style>
+    </head>
+<body>
+    <!-- body starts from here -->
+    <!-- This element will take input from the user and passit to contentscript.js file using internalMessagesending system -->
+    <div class="input">
+        <!-- Taking input frim here -->
+        <h3>Enter Like <i style="size: 500px;" class="fa-brands fa-linkedin"></i> Count:-</h3>
+        <input type="number" class="cbtn"><br>
+        <h3>Enter Comment <i style="size: 500px;" class="fa-brands fa-linkedin"></i> Count:-</h3>
+        <input type="number" class="cmbtn">
+        <!-- Once the user has successfully filled both the filled this button will show up here -->
+        <div class="btn hidden" style="text-align: center;">
+            <!-- Button will popup when user fill both input number only -->
+            <button class="gobtn">GO</button>
+        </div>
+    </div>
+    <script src="pop.js"></script>    
+</body>
+</html>
