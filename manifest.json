@@ -2,7 +2,7 @@
     "name": "Linkedin Post liker and Commenter", 
     "manifest_version": 3,
     "version": "1.0.0",
-    "description": "This Is Simple Linkedin url opener",
+    "description": "This Is Advanced Web chrome extension that will count and post Comment 'CFBR' on each number of post you have given",
     "permissions": ["tabs"],
     "action": {   
       "default_popup": "pop.html", 
