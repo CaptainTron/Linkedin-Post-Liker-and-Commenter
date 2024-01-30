@@ -1,5 +1,5 @@
 # Linkedin-Post-Liker-and-Commenter
-This Advance Web-extension will comment and like the post for the given number of Like Count and Comment Count From the popup. [Watch demo!](https://youtu.be/p-Up19eNgL4)
+This Advance Web-extension that will comment and like the post for the given number of Like Count and Comment Count From the popup. [Watch demo!](https://youtu.be/p-Up19eNgL4)
 #### _I've Used Web APIs like tabs, build tool gulp, use web debugger Chrome Devtools with manifest of version 3._  
 ### Steps for using this Extension.
 
