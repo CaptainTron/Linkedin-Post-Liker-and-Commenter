@@ -1,5 +1,5 @@
-# Linkedin-Post-Liker-and-Commenter
-
+# Linkedin-Post-Liker-and-Commenter  :octocat: 
+![image](https://github.com/CaptainTron/Linkedin-Post-Liker-and-Commenter/assets/94986377/c5fd01e9-46b7-4f16-92ee-8fcbb3bc49ff)
 ## What is it 🙄?  
 This is Web-extension that will comment and like the post for the given number of like and comment Count. [Watch demo!](https://youtu.be/p-Up19eNgL4).  
 
@@ -21,4 +21,4 @@ It will like and comment ```CFBR``` for the first given number of like and comme
 - Click here to go to my blog :- [Link](https://develop4you.hashnode.dev/creating-advance-web-extension)
 - Click here to go to the youtube channel : - [Demo](https://youtu.be/p-Up19eNgL4)
 
-_**Note** that, it may take some time to react on page, depending upon your internet connection speed or wheather your page has been successfully loaded or not_
+_**Note** that, it may take some time to react on page, depending upon your internet connection speed or wheather your page has been successfully loaded or not_  
