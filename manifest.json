@@ -10,7 +10,7 @@
         "16" : "Images/16.png",
         "32" : "Images/32.png",
         "48" : "Images/48.png",
-        "128" : "Images/128.png"
+        "128" : "Images/128.png" 
       }
     },
     "content_scripts": [
