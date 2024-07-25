@@ -1,24 +1,24 @@
-# Linkedin-Post-Liker-and-Commenter  :octocat: 
+# Linkedin-Post-Liker-and-Commenter
 ![image](https://github.com/CaptainTron/Linkedin-Post-Liker-and-Commenter/assets/94986377/c5fd01e9-46b7-4f16-92ee-8fcbb3bc49ff)
+
 ## What is it 🙄?  
-This is Web-extension that will comment and like the post for the given number of like and comment Count. [Watch demo!](https://youtu.be/p-Up19eNgL4).  
+This is a web extension that automates liking and commenting on LinkedIn posts. It allows you to specify the number of likes and comments you want to perform. You can watch a demo of the extension [here](https://youtu.be/p-Up19eNgL4).
 
+## What does it do?
+This extension automatically likes and comments on LinkedIn posts using the text "CFBR". It performs the specified number of likes and comments on the LinkedIn newsfeed.
 
-## What it does ?
-It will like and comment ```CFBR``` for the first given number of like and comment count on the linkedin newsfeed.
+## How to use it?
+Before following these steps, make sure you are logged in to your LinkedIn account.
+1. Clone this repository and add the extension to your favorite web browser.
+2. Click on the extension icon to open the popup.
+3. Fill in the input fields for the number of likes and comments.
+4. Once both fields are filled, a "Go" button will appear. Click the button to automatically open the LinkedIn feed page and perform the likes and comments.
 
-## How to use it ?
-> Make sure you've already Logged-in into your Linkedin account before following these steps.
-1. Clone this Repo, add it on your favourite web-browser.  
-2. Click on the Extension, a popup will appear.
-3. Fill up the both input fields, like and comment count.
-4. When both fields are successully filled, it will show a "Go" button, on clicking the button it will open a linkedin feed page automatically and will click the like button and post comment "CFBR" on each post.
+## How was it built?
+This extension was built using web APIs and the gulp build tool. The development process involved using Chrome DevTools for web debugging, along with the manifest version 3.
 
-## How do you built it ?
- I've Used Web APIs, build tool gulp, use web debugger ```Chrome Devtools``` with manifest of version 3.  
+## Step-by-step tutorial
+For a detailed tutorial on how to create this advanced web extension, you can visit my blog [here](https://develop4you.hashnode.dev/creating-advance-web-extension) or watch the tutorial on my YouTube channel [here](https://youtu.be/p-Up19eNgL4).
 
-## How to make it step-by-step tutorial.  
-- Click here to go to my blog :- [Link](https://develop4you.hashnode.dev/creating-advance-web-extension)
-- Click here to go to the youtube channel : - [Demo](https://youtu.be/p-Up19eNgL4)
+Please note that the extension's response time may vary depending on your internet connection speed and the successful loading of the page.
 
-_**Note** that, it may take some time to react on page, depending upon your internet connection speed or wheather your page has been successfully loaded or not_  
